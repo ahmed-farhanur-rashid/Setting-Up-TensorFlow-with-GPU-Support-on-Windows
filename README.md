@@ -31,7 +31,7 @@ This guide walks you through installing **TensorFlow 2.10 with GPU support** usi
 
 ---
 
-## 📦 Step 2: Install Basic Packages
+## 📦 Step 2: Install Basic Packages (Optional if you have Jupyter Notebookn already installed)
 
 1. In the **`tf210` environment**, switch the filter dropdown to **Not Installed**.
 2. Search for and check the following package:
@@ -57,4 +57,47 @@ Run in terminal
 
 ```bash
 pip install tensorflow==2.10
+```
+
+---
+
+## 🧪 Step 5: Test GPU & Run Benchmark (Jupyter Notebook)
+
+To verify that everything is working, you can run the included notebook or copy the code from it:  
+**`tensorflow_gpu_test.ipynb`**
+
+### 🧾 What's Inside
+
+- **Cell 1–2:** Checks if TensorFlow detects your GPU correctly  
+- **Cell 3–5:** Benchmarks matrix multiplication performance on CPU vs GPU
+
+> 💡 The uploaded notebook includes sample output so you can preview what to expect.
+
+---
+
+## 🔌 Optional Step: Install Common ML & NLP Packages to Expand Workflow
+
+# TensorFlow (already installed in Step 4)
+```bash
+pip install tensorflow==2.10
+```
+
+# Common ML & data visualization libraries
+```bash
+pip install pandas scikit-learn seaborn matplotlib tqdm
+```
+
+# Image handling
+```bash
+pip install pillow opencv-python
+```
+
+# NLP and Transformers
+```bash
+pip install nltk transformers
+```
+
+# spaCy (use binary wheels to avoid compilation errors)
+```bash
+pip install spacy --prefer-binary
 ```
