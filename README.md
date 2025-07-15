@@ -77,26 +77,18 @@ To verify that everything is working, you can run the included notebook or copy 
 
 ## 🔌 Optional Step: Install Common ML & NLP Packages to Expand Workflow
 
-### TensorFlow (already installed in Step 4)
-```bash
-pip install tensorflow==2.10
-```
-
 ### Common ML & data visualization libraries
 ```bash
 pip install pandas scikit-learn seaborn matplotlib tqdm
 ```
-
 ### Image handling
 ```bash
 pip install pillow opencv-python
 ```
-
 ### NLP and Transformers
 ```bash
 pip install nltk transformers
 ```
-
 ### spaCy (use binary wheels to avoid compilation errors)
 ```bash
 pip install spacy --prefer-binary
@@ -109,6 +101,6 @@ pip install spacy --prefer-binary
 You now have **TensorFlow 2.10 with native GPU support** running on Windows — no WSL required.
 
 If the benchmark ran successfully and your GPU was detected, congratulations! 🎉  
-You're ready to start building and accelerating deep learning models.
+You're ready to start building and accelerating deep learning or ML models.
 
 ---
