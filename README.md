@@ -64,7 +64,7 @@ pip install tensorflow==2.10
 ## 🧪 Step 5: Test GPU & Run Benchmark (Jupyter Notebook)
 
 To verify that everything is working, you can run the included notebook or copy the code from it:  
-**`tensorflow_gpu_test.ipynb`**
+**`Tests & Benchmark.ipynb`**
 
 ### 🧾 What's Inside
 
