@@ -25,7 +25,7 @@ This guide walks you through installing **TensorFlow 2.10 with GPU support** usi
 1. Open **Anaconda Navigator**.
 2. Go to the **Environments** tab.
 3. Click **Create**:
-   - **Name:** `tf210`
+   - **Name:** `tf210` (Name it whatever you want)
    - **Python version:** `3.8.20` (or any `3.8.x`)
 4. Click **Create** to confirm.
 
