@@ -68,8 +68,8 @@ To verify that everything is working, you can run the included notebook or copy 
 
 ### 🧾 What's Inside
 
-- **Cell 1–2:** Checks if TensorFlow detects your GPU correctly  
-- **Cell 3–5:** Benchmarks matrix multiplication performance on CPU vs GPU
+- **Code Cell 1–2:** Checks if TensorFlow detects your GPU correctly  
+- **Code Cell 3-4:** Benchmarks matrix multiplication performance on CPU vs GPU
 
 > 💡 The uploaded notebook includes sample output so you can preview what to expect.
 
